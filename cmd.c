@@ -46,3 +46,10 @@ void gameloop() {
         printf("猜了三次也沒猜對，答案是%d。\n", right_answer);
     }
 }
+
+/*《程式語言教學誌》的範例程式
+   http://kaiching.org/
+   檔名：cmd.c
+   功能：猜數字遊戲的終端機版本
+   作者：張凱慶 */
+        int result = answer(right_answer, guess); //取得猜測結果
