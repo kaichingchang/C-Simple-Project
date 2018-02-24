@@ -52,4 +52,3 @@ void gameloop() {
    檔名：cmd.c
    功能：猜數字遊戲的終端機版本
    作者：張凱慶 */
-        int result = answer(right_answer, guess); //取得猜測結果
